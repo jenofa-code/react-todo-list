@@ -1,16 +1,108 @@
-# React + Vite
+# 🌸 React To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, cute, and responsive To-Do List application built using **React** and **Vite**. It helps users organize daily tasks, track their progress, and manage completed and pending tasks.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ➕ Add new tasks
+- ✅ Mark tasks as completed
+- 🗑️ Delete tasks
+- 🔍 Filter tasks by All, Pending, and Completed
+- 💾 Save tasks using browser Local Storage
+- ⌨️ Add tasks by pressing Enter
+- 🎨 Clean, cute, pink-themed user interface
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** – Component-based user interface
+- **JavaScript** – Application logic
+- **HTML5** – Page structure
+- **CSS3** – Styling and layout
+- **Vite** – Development server and build tool
+- **Local Storage** – Persistent task storage in the browser
+- **Git & GitHub** – Version control
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+Install [Node.js](https://nodejs.org/) and Git before running the project.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/jenofa-code/react-todo-list.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd react-todo-list
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal, usually `http://localhost:5173`.
+
+## 📦 Build for Production
+
+Run the following command to create a production build:
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## 💾 Data Storage
+
+Tasks are saved in the browser's Local Storage, so they remain available after refreshing the page in the same browser. Clearing browser storage or switching browsers may remove or hide saved tasks.
+
+## 🌐 Deployment
+
+This project can be deployed using [Vercel](https://vercel.com/).
+
+1. Import the GitHub repository into Vercel.
+2. Select **Vite** as the framework if prompted.
+3. Use `npm run build` as the build command.
+4. Set `dist` as the output directory.
+5. Click **Deploy**.
+
+## 🎯 Learning Outcomes
+
+Through this project, I practiced:
+
+- React functional components
+- State management using `useState`
+- Side effects using `useEffect`
+- Rendering lists with `map()`
+- Filtering arrays using `filter()`
+- Handling user events
+- Saving data with Local Storage
+- Building and deploying a frontend application
+
+## 👩‍💻 Author
+
+**Jenofa**
+
+GitHub: [@jenofa-code](https://github.com/jenofa-code)
+
+---
+
+⭐ If you find this project useful, feel free to star the repository!
