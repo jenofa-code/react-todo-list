@@ -7,7 +7,6 @@ A simple, cute, and responsive To-Do List application built using **React** and 
 - ➕ Add new tasks
 - ✅ Mark tasks as completed
 - 🗑️ Delete tasks
-- 🔍 Filter tasks by All, Pending, and Completed
 - 💾 Save tasks using browser Local Storage
 - ⌨️ Add tasks by pressing Enter
 - 🎨 Clean, cute, pink-themed user interface
